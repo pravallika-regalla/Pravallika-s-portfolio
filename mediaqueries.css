@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .contact-info-container {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .modern_button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .menu-links {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-links li {
+        padding: 15px;
+    }
+
+    .hamburger-menu {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.9);
+    }
+}

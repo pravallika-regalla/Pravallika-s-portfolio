@@ -1,0 +1,238 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="mediaqueries.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    </head>
+    
+    <body>
+        <div class="wrapper">   
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="banner">
+        <div class="content">
+ 
+        <!-- Updated Navigation (Desktop & Mobile) -->
+<nav id="desktop-nav">
+    <div class="logo">Pravallika</div>
+    <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#tech-stack">Tech Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <button class="download-cv" onclick="window.open('./assets/Pravallika_AngularDev.pdf')">Download CV</button>
+    </ul>
+</nav>
+
+<nav id="hamburger-nav">
+    <div class="logo">Pravallika</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+            <li><a href="#tech-stack" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            <button class="download-cv" onclick="window.open('./assets/pravallika-regalla.pdf')">Download CV</button>
+        </ul>
+    </div>
+</nav>
+
+        <section id="profile">
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm a</p>
+                <!-- <h1 class="title">Pravallika</h1> -->
+                <p class="section__text__p2" id="animated-title">Front-End Developer</p>
+
+                <div class="btn-container">
+                    <button class="modern_button" onclick="location.href='./#about'">More Details Below</button>
+                    <div class="double-arrow" onclick="location.href='./#about'">
+                        <img src="assets/doublearrow.png" alt="Double Arrow" class="arrow-icon">
+                    </div>
+                    
+                </div>
+             
+                
+                
+            </div>
+           
+         
+        </section>
+        <!-- <div class="section_pic-container">
+            <img src="./assets/pravallika.jpg" class="profile-pic" alt="my portfolio profile">
+        </div> -->
+        <section id="about">
+            <div class="about-wrapper">
+                <div class="profile-section">
+                    <img src="./assets/pravallika.jpg" alt="Profile Picture" class="custom-profile">
+                </div>
+                <div class="about-content">
+                    <h1 class="title">Who Am I?</h1>
+                    <p class="about-description">
+I'm a **Front-End Developer** with a passion for crafting immersive, interactive web experiences. With expertise in **Angular, React, HTML, CSS, and JavaScript**, I design elegant, high-performance applications that seamlessly adapt across devices.  <br/> <br/>
+
+I thrive on building intuitive user interfaces, optimizing performance, and enhancing accessibility to create seamless digital experiences. With a strong eye for design and functionality, I bridge the gap between aesthetics and usability, ensuring every application I develop is visually compelling and highly functional.
+                    </p>
+                    <div class="info-boxes">
+                        <div class="info-card experience-card">
+                            <h3>Work Experience</h3>
+                            <p> Over 2 years of expertise in Front-End Development <br>Specialized in responsive, high-performance web apps</p>
+                        </div>
+                        <div class="info-card education-card">
+                            <h3>Education</h3>
+                            <p>Bachelor’s in Computer Science <br> Master’s in Computer Science</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+        <section id="tech-stack">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Tech Stack</h1>
+            <div class="tech-grid">
+                <div class="tech-card html"><img src="assets/html.png" alt="HTML">HTML</div>
+                <div class="tech-card css"><img src="assets/css.png" alt="CSS">CSS</div>
+                <div class="tech-card js"><img src="assets/js.png" alt="JavaScript">JAVASCRIPT</div>
+                <div class="tech-card sass"><img src="assets/sass.png" alt="SASS">SASS</div>
+                <div class="tech-card bootstrap"><img src="assets/bootstrap.png" alt="SASS">BOOTSTRAP</div>
+                <div class="tech-card ts"><img src="assets/ts.png" alt="ts">TYPESCRIPT</div>
+                <div class="tech-card angular"><img src="assets/angular.png" alt="CSS">ANGULAR</div>
+              
+                <div class="tech-card vs"><img src="assets/vs code.png" alt="VS">Visual Studio</div>
+                <div class="tech-card agile"><img src="assets/agile.png" alt="Next.js">AGILE</div>
+                <div class="tech-card react"><img src="assets/react.png" alt="React">REACT</div>
+            
+                <div class="tech-card sql"><img src="assets/sql.png" alt="sql">SQL</div>
+                <div class="tech-card dotnet"><img src="assets/dotnet.png" alt="SASS">.NET</div>
+                <div class="tech-card node"><img src="assets/nodejs.png" alt="Node.js">NODE.JS</div>
+                <div class="tech-card git"><img src="assets/git.png" alt="Git">GIT</div>
+                <div class="tech-card express"><img src="assets/express.png" alt="Git">EXPRESS.JS</div>
+            </div>
+        </section>
+        
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="projects-container">
+                <div class="project-card left">
+                    <div class="project-content">
+                        <h2>To-Do App</h2>
+                        <p class="font-color">The **To-Do App** is a simple and efficient task management application that helps users create, organize, and track their daily tasks with ease.</p>
+                        <button class="github-btn" onclick="window.open('https://github.com/pravallika-regalla/ToDo-App', '_blank')">View GitHub</button>
+                    </div>
+                </div>
+                <div class="project-card right">
+                    <div class="project-content">
+                        <h2>Face Mask Detection</h2>
+                        <p class="font-color">The **Face Mask Detection** project uses AI to identify if a person is wearing a mask in real-time through a live video stream. It leverages deep learning to classify faces as **"Mask"** or **"No Mask."**</p>
+                        <button class="github-btn" onclick="window.open('https://github.com/pravallika-regalla/Face-Mask-Detection', '_blank')">View GitHub</button>
+                    </div>
+                </div>
+                <div class="project-card left">
+                    <div class="project-content">
+                        <h2>Voice Based Email</h2>
+                        <p class="font-color">The **Voice-Based Email** project enables users to interact with their email system using voice commands. It leverages speech recognition and natural language processing to compose, send, and manage emails hands-free.</p>
+                        <button class="github-btn" onclick="window.open('https://github.com/pravallika-regalla/Voice-Based-Email', '_blank')">View GitHub</button>
+                    </div>
+                </div>
+                <div class="project-card right">
+                    <div class="project-content">
+                        <h2>Drowsiness Detection</h2>
+                        <p class="font-color">The **Drowsiness Detection** project alerts drivers when they become drowsy using real-time monitoring. It analyzes eye movements and facial features and can be implemented on Raspberry Pi for enhanced safety.</p>
+                        <button class="github-btn" onclick="window.open('https://github.com/pravallika-regalla/Drowsiness-Detection', '_blank')">View GitHub</button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section id="certifications" style="top: 5rem;
+    position: relative;">
+            <p class="section__text__p1">My Achievements</p>
+            <h1 class="title">Certifications</h1>
+        
+            <div class="certification-container" style="top: 4rem;
+    position: relative;">
+                <!-- Meta Certification (Right to Left) -->
+                <div class="meta-icon">
+                    <img src="assets/meta.png" style="right: 2rem;
+    position: relative;" alt="Meta Logo">
+                </div>
+                <div class="certification-card right">
+                    <h2 class="title">Meta Front-End Developer</h2>
+                    <p class="font-color">Certified by Meta for mastering front-end development using React, JavaScript, HTML, and CSS.</p>
+                </div>
+                </div>
+
+                <div class="certification-container" style="top: 8rem;
+    position: relative;">
+        
+                <!-- Google Certification (Left to Right) -->
+                <div class="certification-card left">
+                    <h2 class="title">Google UI/UX Design</h2>
+                    <p class="font-color">Certified by Google for expertise in user experience design, wireframing, prototyping, and usability testing.</p>
+                </div>
+                <div class="google-icon">
+                    <img src="assets/google.png" style="right: -2rem;
+    position: relative;" alt="Google Logo">
+                </div>
+            </div>
+        </section>
+        
+        
+
+
+        <section id="contact">
+            <p class="section__text__p1 animate-on-scroll">Get in Touch</p>
+            <h1 class="title animate-on-scroll">Contact me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container animate-on-scroll">
+                    <img src="./assets/maill.png" alt="email icon" class="icon contact-icon"/>
+                    <p style="color: white;"><a class="color_black" href="mailto:pravallikaregalla@gmail.com">mail2pravallikaregalla@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container animate-on-scroll">
+                    <img src="./assets/phonee.png" alt="phone icon" class="icon contact-icon"/>
+                    <p style="color: white;"> <a class="color_black" href="https://www.linkedin.com/in/pravallikaregalla/">+1 (689)278-9298</a></p>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer">
+           
+        
+            <img src="./assets/linkedin.jpg" alt="LinkedIn" class="icon social-icon linkedin" 
+            onclick="location.href='https://www.linkedin.com/in/pravallikaregalla/'">
+            <img src="./assets/github.jpg" alt="GitHub" class="icon social-icon github" 
+            onclick="location.href='https://www.github.com'">
+            
+            <p class="font-color-top">Copyright &#169; 2025 Pravallika. All Rights Reserved</p> 
+        </footer>
+        
+        
+        
+  
+     
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
